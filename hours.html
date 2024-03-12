@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hours & Location | SERENDIPITY</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Yatra+One&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #014137;
+            }
+            .name{
+                font-size: 4.5rem;
+                margin-right: 10vw;
+            }
+            .navbar{
+                background-color: #014137;
+                color: #E4CDB4;
+                font-size: 1.5em;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                position: fixed;
+                top: 0;
+                z-index: 1000;
+                width: 100%;    
+                height: 7vw;
+            }
+            .navbar ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 2vw;
+            }
+
+            #reserve{
+                border:3px solid #E4CDB4;
+                padding: 1vw;
+                margin-top: -1vw;
+                border-radius: 50px;
+                margin-right: 2vw;
+            }
+            a:link{
+                color: #E4CDB4;
+                text-decoration: none;
+            }
+            a:visited{
+                color:#E4CDB4
+            }
+            .mainheading{
+                color: #E4CDB4;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                font-size: 4em;
+                display: flex;
+                justify-content: center;
+                margin-top: 12vw;
+            }
+            .content{
+                color: #E4CDB4;
+                font-size: 1.5em;
+                display: flex;
+                justify-content: center;
+                /* align-items: center; */
+                text-align: center;
+            }
+            #meal{
+                font-weight: bolder;
+                text-decoration:underline;
+            }
+            .reservation{
+                color: #E4CDB4;
+                font-size: 1.5em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                border: 3px solid;
+                padding:2vw;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a class="name" href="./index.html">SERENDIPITY</a></li>
+                <li><a href="./menus.html">MENUS</a></li>
+                <li><a href="./private_dining.html">PRIVATE DINING</a></li>
+                <li><a href="./hours.html">HOURS & LOCATION</a></li>
+                <li><a href="./reservations.html" id="reserve">RESERVE NOW</a></li>
+            </ul>
+        </div>
+        <div class="mainheading">HOURS & LOCATION</div>
+        <div class="content">
+            <ul style="list-style-type: none;">
+                <li>XYZ location</li>
+                <br>
+                <br>
+                <li id="meal">LUNCH</li>
+                <br>
+                <li>Everyday</li>
+                <br>
+                <li>Noon Onwards</li>
+                <br>
+                <br>
+                <li id="meal">DINNER</li>
+                <br>
+                <li>Nightly</li>
+                <br>
+                <li>5PM onwards</li>
+                <br>
+                <br>
+                <li id="meal">GOLDEN HOUR</li>
+                <br>
+                <li>Thursday-Sunday</li>
+                <br>
+                <li>3-6PM</li>
+            </ul>
+        </div>
+        <div class="reservation">
+            <h3>RESERVATIONS</h3>
+            <p>All reservations are handled through OpenTable.
+
+                Alternatively, you may e-mail reservations@sona-nyc.com with your name, phone number, preferred date(s), time(s), and number of guests. Should you wish to speak with a reservationist by phone, please call 212-203-6460
+                
+                For parties of 8 or more, click here to submit an inquiry.
+                
+                For general inquiries, please contact info@sona-nyc.com
+                
+                We look forward to welcoming you in.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reservations</title>
+    <style>
+        body {
+            background-color: #014137;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background-color: #f7e6d4;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px; 
+            box-sizing: border-box;
+            border: 1px solid #014137;
+            border-radius: 4px;
+            background-color: #fff5ea;
+        }
+
+        input[type="submit"] {
+            background-color: #014137;
+            color: #e4cdb4;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form name="form" onsubmit="return validateform()">
+        <h2 style="text-align: center; color: #014137;">RESERVATIONS</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" name="fname">
+
+        <label for="people">Number of People:</label>
+        <input type="number" name="people">
+
+        <label for="date">Date:</label>
+        <input type="date" name="date">
+
+        <label for="time">Time:</label>
+        <input type="time" name="time">
+
+        <input type="submit" value="Find a Table">
+    </form>
+
+    <script>
+        function validateform() {
+            var name = document.forms["form"]["fname"].value;
+            var people = document.forms["form"]["people"].value;
+            var date = document.forms["form"]["date"].value;
+            var time = document.forms["form"]["time"].value;
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            if (people == "") {
+                alert("Number of people must be filled out");
+                return false;
+            }
+            if (date == "") {
+                alert("Date must be filled out");
+                return false;
+            }
+            if (time == "") {
+                alert("Time must be filled out");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

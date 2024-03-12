@@ -1,0 +1,115 @@
+body{
+    /* colors: #b8c9a9/ #b2dfdb/#c1e1c1/#c1e1d1/#d3ffd3 */
+    background: #014137;
+    margin: 0;
+    padding: 0;
+}
+.name{
+    font-size: 4.5rem;
+    margin-right: 10vw;
+}
+.navbar{
+    background-color: #014137;
+    color: #E4CDB4;
+    font-size: 1.5em;
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Yatra One', system-ui;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;    
+    height: 9rem;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+#reserve{
+    border:3px solid #E4CDB4;
+    padding: 1vw;
+    margin-top: -1vw;
+    border-radius: 50px;
+    margin-right: 2vw;
+}
+a:link{
+    color: #E4CDB4;
+    text-decoration: none;
+}
+a:visited{
+    color:#E4CDB4
+}
+
+#vid {
+    width: 100%;
+    height: 90%;
+    object-fit:cover;
+    margin-top: 2vw;
+}
+
+.welcometext{
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Yatra One', system-ui;
+    color: #E4CDB4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 6.5vw;
+}
+#line{
+    background-color: #E4CDB4;
+    width: 5vw;
+    height: 0.1vw;
+    margin-bottom: 2vw;
+}
+#paragraph{
+    font-size:0.66em;   
+}
+#menu{
+    border: 1px solid #E4CDB4;
+    border-radius: 50px;
+    margin-top: 3vw;
+    padding: 1vw;
+}
+.events{
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Yatra One', system-ui;
+    color: #E4CDB4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.details{
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Yatra One', system-ui;
+    background-color: #B8C9A9;
+    width: 100%;
+    height: 10vw;
+    margin-top: 11vw;
+    color: #014137;
+    font-size: x-large;
+    
+}
+#follow{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    font-size: smaller;    
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menus | SERENDIPITY</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Yatra+One&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #014137;
+            }
+            .name{
+                font-size: 4.5rem;
+                margin-right: 10vw;
+            }
+            .navbar{
+                background-color: #014137;
+                color: #E4CDB4;
+                font-size: 1.5em;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                position: fixed;
+                top: 0;
+                z-index: 1000;
+                width: 100%;    
+                height: 7vw;
+            }
+            .navbar ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 2vw;
+            }
+
+            #reserve{
+                border:3px solid #E4CDB4;
+                padding: 1vw;
+                margin-top: -1vw;
+                border-radius: 50px;
+                margin-right: 2vw;
+            }
+            a:link{
+                color: #E4CDB4;
+                text-decoration: none;
+            }
+            a:visited{
+                color:#E4CDB4
+            }
+            .menu{
+                color: #E4CDB4;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                font-size: 4em;
+                display: flex;
+                justify-content: center;
+                margin-top: 6vw;
+            }
+            .tabs ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                margin-left: 20vw;
+                margin-right: 20vw;
+                font-size: 1.5em;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+            }
+            .tab-content {
+                display: none; /* Hide all tab content by default */
+            }
+
+            /* Display the selected tab content */
+            .tab-content.active {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a class="name" href="./index.html">SERENDIPITY</a></li>
+                <li><a href="./menus.html">MENUS</a></li>
+                <li><a href="./private_dining.html">PRIVATE DINING</a></li>
+                <li><a href="./hours.html">HOURS & LOCATION</a></li>
+                <li><a href="./reservations.html" id="reserve">RESERVE NOW</a></li>
+
+            </ul>
+        </div>
+        <div class="menu">MENU</div>
+        <div class="tabs">
+            <ul>
+                <li><a onclick="showContent('lunch')">LUNCH</a></li>
+                <li><a onclick="showContent('goldenhour')">GOLDEN HOUR</a></li>
+                <li><a href="#dinner" onclick="showContent('dinner')">DINNER</a></li>
+                <li><a href="#dessert" onclick="showContent('dessert')">DESSERT</a></li>
+            </ul>
+        </div>
+        <div class="tabcontent" id="lunchmenu">
+            AVAILABLE THURSDAY - SUNDAY | 2-5 PM
+        </div>
+        <div class="tabcontent" id="goldenhourmenu">
+            EVERY THURSDAY-SUNDAY | 3-6 PM
+        </div>
+        <div class="tabcontent" id="dinnermenu">
+            EVERY THURSDAY-SUNDAY | 7-12 PM
+        </div>
+        <div class="tabcontent" id="dessertmenu">
+            EVERYDAY
+        </div>
+    </body>
+    
+</html>

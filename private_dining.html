@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Private Dining | SERENDIPITY</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Yatra+One&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #014137;
+            }
+            .name{
+                font-size: 4.5rem;
+                margin-right: 10vw;
+            }
+            .navbar{
+                background-color: #014137;
+                color: #E4CDB4;
+                font-size: 1.5em;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                position: fixed;
+                top: 0;
+                z-index: 1000;
+                width: 100%;    
+                height: 7vw;
+            }
+            .navbar ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 2vw;
+            }
+
+            #reserve{
+                border:3px solid #E4CDB4;
+                padding: 1vw;
+                margin-top: -1vw;
+                border-radius: 50px;
+                margin-right: 2vw;
+            }
+            a:link{
+                color: #E4CDB4;
+                text-decoration: none;
+            }
+            a:visited{
+                color:#E4CDB4
+            }
+            .mainheading{
+                color: #E4CDB4;
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                font-size: 4em;
+                display: flex;
+                justify-content: center;
+                margin-top: 12vw;
+            }
+            .intro{
+                color: #E4CDB4;
+                text-align: center;
+                margin-left: 30vw;
+                margin-right: 30vw;
+                font-size: 1.3em;
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 2vw;
+            }
+            .button{
+                width: 10vw;
+                padding: 1vw;
+                background-color: #014137;
+                color: #E4CDB4;
+                border: 2px solid;
+                border-radius: 2vw;
+            }
+            #event1{
+                width: 40vw;
+            }
+            #event2{
+                width: 38vw;
+            }
+            .event{
+                margin-top: 4vw;
+                display: flex;
+                justify-content: space-around;
+            }
+            .eventcontent{
+                display: flex;
+                justify-content: space-around;
+                color: #E4CDB4;
+                font-size: 1.3em;
+                gap: 10vw;
+            }
+            #description{
+                display:flex;
+                flex-direction: column; 
+                align-items: center; 
+                text-align: center;
+            }
+            .details{
+                font-family: 'Cinzel Decorative', serif;
+                font-family: 'Rubik Doodle Shadow', system-ui;
+                font-family: 'Yatra One', system-ui;
+                background-color:#679A67;
+                width: 100%;
+                height: 10vw;
+                color: #014137;
+                font-size: x-large;
+                
+            }
+            #follow{
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            #detail{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;  
+                font-size: smaller;    
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a class="name" href="./index.html">SERENDIPITY</a></li>
+                <li><a href="./menus.html">MENUS</a></li>
+                <li><a href="./private_dining.html">PRIVATE DINING</a></li>
+                <li><a href="./hours.html">HOURS & LOCATION</a></li>
+                <li><a href="./reservations.html" id="reserve">RESERVE NOW</a></li>
+            </ul>
+        </div>
+        <div class="mainheading">EVENTS BY SERENDIPITY</div>
+        <p class="intro">From the moment guests arrive, they are taken on a sensory journey. This starts with greetings by our hosts and evolves with the scent of our SONA Home candles and the sounds of our custom-curated soundtrack.
+            SONA interprets the vibrant cuisine of regional India in a modern, approachable way. Our beverage program, featuring seasonal G&Ts, is inspired by the culture and spirit of India, using the finest ingredients and flavors in modern interpretations of storied classics. 
+            Our elegant private dining room is an exquisite destination to enjoy intimate dinners, joyous brunches, and special occasions of all kinds.
+        </p>
+        <p class="intro">We can't wait to celebrate with you.</p>
+        <div class="buttons">
+            <button class="button">LEARN MORE</button>
+            <button class="button">INQUIRE</button>
+        </div>
+        <div class="event">
+            <img id="event1" style="border: 2px solid #E4CDB4;" src="./event3.webp" alt="event">
+            <img id="event2" style="border: 2px solid #E4CDB4;" src="./event4.jpg" alt="event">
+        </div>
+        <div class="eventcontent">
+            <div id="description">
+                <h2>PRIVATE DINING ROOM</h2>
+                <p>Our private dining room is an exquisite destination for you to gather your loved ones for an intimate meal hidden beneath one of NYC's hottest restaurants. Enjoy favorites from our dinner menu, cocktails and bites, or our inventive New York-meets-Indian brunch menu (think everything bagel naan, cardamom waffles, and our take on a burger).</p>
+                <ul style="list-style-type: none;">
+                    <li>GUEST CAPACITY</li>
+                    <li>Seated: 30 people max</li>
+                    <li>Standing: 45 people max</li>
+                </ul>
+                
+            </div>
+
+            <div id="description">
+                <h2>MAIN DINING ROOM</h2>
+                <p>The light-filled front dining area can be cleared for cocktails and passed bites (in tandem with our bar area), replaced with a dance floor, or configured to seat a large group across one or more long tables. The sultry rear dining area features built-in leather banquettes with room for longer tables at the center and perimeter, perfect for seated events. </p>
+                <ul style="list-style-type: none;">
+                    <li>SEMI-PRIVATE BUYOUT</li>
+                    <li>Seated: 45 people max</li>
+                    <li>Standing: 75 people max</li>
+                    <br>
+                    <li>FULL RESTAURANT BUYOUT</li>
+                    <li>Seated:125 people max</li>
+                    <li>Standing: 190 people max</li>
+                </ul>
+            </div>
+        </div>
+        <div class="details">
+            <h1 id="follow">FOLLOW US @SERENDIPITY</h1>
+            <div id="detail">
+                <h3>LOCATION: xyz</h3>
+                <h3>PHONE: 123</h3>
+                <h3>EMAIL: abc@gmail.com</h3>
+            </div>
+            
+        </div>
+    </body>
+</html> 
