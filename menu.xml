@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+    <menu-item>
+        <name>Breakfast</name>
+        <description>Start your day with our delicious breakfast options.</description>
+    </menu-item>
+    <menu-item>
+        <name>Lunch</name>
+        <description>Enjoy a satisfying lunch with our variety of dishes.</description>
+    </menu-item>
+    <menu-item>
+        <name>Dinner</name>
+        <description>Indulge in our flavorful dinner selections.</description>
+    </menu-item>
+</menu>
