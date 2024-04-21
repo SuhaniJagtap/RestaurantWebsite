@@ -212,7 +212,11 @@
             return isValid;
         }
         function reserveTable() {
-            alert("Your reservation has been submitted!");
+            if (validateForm()) {
+                alert("Your reservation has been submitted!");
+            } else {
+                alert("Please fill out the form.");
+            }
         }
     </script>
 </body>
